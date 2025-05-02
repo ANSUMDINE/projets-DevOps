@@ -10,7 +10,7 @@ pipeline {
 
                 cleanWs()
 
-                git 'https://github.com/ANSUMDINE/projets-DevOps.git'
+                git branch: 'main', url: 'https://github.com/ANSUMDINE/projets-DevOps.git'
 
             }
 
